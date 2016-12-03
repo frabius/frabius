@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kmad-model SYSTEM "file:KMADModelJT.dtd">
+<kmad-model version="1.3">
+    <project classkmad="project.Project" id-project-information="K2" idkmad="K1">
+        <projectinformation classkmad="project.GeneralInformation" idkmad="K2">
+            <projectinformation-compagny>saboteur</projectinformation-compagny>
+        </projectinformation>
+    </project>
+    <task classkmad="tache.Task" id-task-point="K3" id-task-subtasks-list="K7 K22 " idkmad="K4">
+        <task-name>Début de partie</task-name>
+        <task-numero>Racine   </task-numero>
+        <task-observation/>
+        <task-executant>ABS</task-executant>
+        <task-modality>COGN</task-modality>
+        <task-optional>false</task-optional>
+        <task-interruptible>false</task-interruptible>
+        <task-decomposition>SEQ</task-decomposition>
+        <task-precondition>true</task-precondition>
+        <task-effetsdebord>void</task-effetsdebord>
+        <task-iteration>[1]</task-iteration>
+        <point classkmad="tache.Point" idkmad="K3">
+            <point-x>460</point-x>
+            <point-y>38</point-y>
+        </point>
+        <task classkmad="tache.Task" id-task-point="K6" idkmad="K7">
+            <task-name>le nain vercommence</task-name>
+            <task-numero>1</task-numero>
+            <task-observation/>
+            <task-executant>ABS</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K6">
+                <point-x>106</point-x>
+                <point-y>196</point-y>
+            </point>
+        </task>
+        <task classkmad="tache.Task" id-task-point="K21" id-task-subtasks-list="K13 K19 K25 K16 " idkmad="K22">
+            <task-name>choix d une action</task-name>
+            <task-numero>2</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>ALT</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K21">
+                <point-x>392</point-x>
+                <point-y>198</point-y>
+            </point>
+            <task classkmad="tache.Task" id-task-point="K12" idkmad="K13">
+                <task-name>placer une carte chemin</task-name>
+                <task-numero>2.1</task-numero>
+                <task-observation/>
+                <task-executant>ABS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>SEQ</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K12">
+                    <point-x>249</point-x>
+                    <point-y>367</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K18" idkmad="K19">
+                <task-name>jouer une carte action</task-name>
+                <task-numero>2.2</task-numero>
+                <task-observation/>
+                <task-executant>ABS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>SEQ</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K18">
+                    <point-x>473</point-x>
+                    <point-y>370</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K24" idkmad="K25">
+                <task-name>supprimer une carte action</task-name>
+                <task-numero>2.3</task-numero>
+                <task-observation/>
+                <task-executant>ABS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>SEQ</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K24">
+                    <point-x>665</point-x>
+                    <point-y>370</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K15" idkmad="K16">
+                <task-name>passer sont tours</task-name>
+                <task-numero>2.4</task-numero>
+                <task-observation/>
+                <task-executant>ABS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>SEQ</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K15">
+                    <point-x>880</point-x>
+                    <point-y>370</point-y>
+                </point>
+            </task>
+        </task>
+    </task>
+</kmad-model>
