@@ -1,0 +1,24 @@
+class carte chemin {
+//composer deux 5 point d acces 
+
+point nord
+point sud 
+point est 
+point ouest
+point centre
+
+
+}
+
+class point{
+//chaque point comporte une valeur est 4 boolean et de la valeur de l or sur la carte 
+valeur dertermine si des point sont relier 
+porte verte ?
+porte bleu ?
+troll?
+echelle ?
+valeur de l or 
+
+methode de la classe point
+	ouvrire une port // change la valeur du boolean d une port de la couleur opposer si le joueur a une clef 
+}
