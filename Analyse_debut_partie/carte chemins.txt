@@ -1,13 +1,11 @@
 class carte chemin {
 //composer deux 5 point d acces 
-
+ID
 point nord
 point sud 
 point est 
 point ouest
 point centre
-
-
 }
 
 class point{
@@ -24,3 +22,16 @@ methode de la classe point
 	payer le troll //passe le boolean du troll a fals 
 	
 }
+
+class nain{ 
+pseudo
+couleur
+main 6 carte max
+nb pepite
+score
+}
+
+pile de carte carte chemins + carte action 
+
+
+
